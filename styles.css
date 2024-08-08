@@ -6,5 +6,60 @@
 ul{
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 8px;
+    display: flex;
+    gap: 12px;
+    
+}
+body{
+    margin: 0;
+}
+img{
+    width: 350px;
+    height: 250px;
+    
+}
+button{
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    text-align: center;
+    padding: 10px 15px;
+    max-width: 150px;
+}
+.header{
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: column;
+    padding: 8px 50px;
+    margin: 0;
+}
+.header h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    
+}
+.header p, .header li{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header h3{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-bottom{
+    display: flex;  
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+    
 }
