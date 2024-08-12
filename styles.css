@@ -89,3 +89,23 @@ button{
     max-width: 150px;
     text-align: center;
 }
+.quote{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px 250px;
+}
+.quote p{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0;
+}
+.author{
+    color: #1F2937;
+    font-weight: 700;
+    font-size: 20px;
+}
