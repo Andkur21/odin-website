@@ -14,7 +14,7 @@ ul{
 body{
     margin: 0;
 }
-img{
+.header img{
     width: 350px;
     height: 250px;
     
@@ -61,5 +61,31 @@ button{
 .header-text{
     display: flex;
     flex-direction: column;
-    
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.information h2{
+    color: #1F2937;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.information img{
+    width: 100px;
+    height: 100px;
+}
+.subsection{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.picture{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 150px;
+    text-align: center;
 }
